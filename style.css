@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+table{
+    border: solid 3px gray;
+}
+table tr td{
+    border: 1px solid gray;
+    background-color: #fff;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.info-box{
+    background-color: #ccc;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 16px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.blocks-button{
+    display: inline-flex;
+    align-items: center;
+}
+
+#balance{
+    font-weight: bold;
+    font-size: 24px;
+}
+

@@ -1,0 +1,53 @@
+<html lang="EN">
+<head>
+    <title>NeverWin Casino</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<h1>Welcome to NeverWin Casino!</h1>
+<h2>Felling lucky today? Let's play!</h2>
+
+<div class="info-box">
+    <table>
+        <tr>
+            <td>
+                <div id="fruit3"></div>
+            </td>
+            <td>
+                <div id="fruit2"></div>
+            </td>
+            <td>
+                <div id="fruit1"></div>
+            </td>
+        </tr>
+    </table>
+    <button id="spinButton" onclick="spin()">Spin</button>
+</div>
+
+<div class="info-box">
+    Your balance:
+    <span id="balance"></span>
+    <button onclick="window.location='cash-out.php'">CASH OUT</button>
+</div>
+
+<div class="info-box">
+    Your unique ID:
+    <span id="session-id"></span>
+</div>
+
+<div class="info-box">
+    <div id="note"></div>&nbsp;
+</div>
+
+<pre>
+    C-C-C = +10 credits
+    L-L-L = +20 credits
+    O-O-O = +30 credits
+    W-W-W = +40 credits
+    Each spin costs 1 credit
+</pre>
+
+</body>
+</html>
